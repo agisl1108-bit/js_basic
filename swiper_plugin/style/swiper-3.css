@@ -1,0 +1,106 @@
+#wrap {min-width: 1200px;}
+#wrap header {
+    position: sticky; top: -50px; z-index: 999; left: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+#wrap header,
+#wrap footer {
+    width: 100%; line-height: 100px; text-align: center; font-size: 0.95rem;
+    background: linear-gradient(90deg, #eee, #fff, #eee); color: #555;
+}
+#wrap main {}
+#wrap main #hero_wrap {}
+#wrap main #hero_wrap .ssf_hero {height: 90vh;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper {}
+#wrap main #hero_wrap .ssf_hero .prev,
+#wrap main #hero_wrap .ssf_hero .next {
+    background-image: url(../img/arrow.png);
+    background-size: contain;
+}
+#wrap main #hero_wrap .ssf_hero .prev {transform: scaleX(-1);}
+#wrap main #hero_wrap .ssf_hero .prev svg,
+#wrap main #hero_wrap .ssf_hero .next svg {display: none;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide {
+    background-size: cover; background-position: center;
+}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a {
+    display: flex; height: 100%; background: rgba(0,0,0,0.3);
+    justify-content: center; flex-flow: column nowrap; text-align: center;
+}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a * {line-height:1.5; color: #fff;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a p {}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a h1 {
+    margin: 10px 0; font-size: 1.4rem; font-weight: 700;
+}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a h1+p {}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide1 {background-image: url(https://image.fi.co.kr/imgdata/944/%EB%B9%88%ED%8F%B4%EB%A9%981.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide2 {background-image: url(https://news.samsungcnt.com/upload/2.0/wp-content/uploads/sites/2/2024/09/%EC%82%AC%EC%A7%84-3.-%EB%B9%88%ED%8F%B4-24FW-%EB%B8%8C%EB%9E%9C%EB%93%9C-%EC%BA%A0%ED%8E%98%EC%9D%B8%EB%B0%B0%EC%9A%B0-%EA%B9%80%ED%98%9C%EC%A4%80.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide3 {background-image: url(https://www.fashionbiz.co.kr/images/articleImg/textImg/1745801647577-%EC%82%AC%EC%A7%844.%20%EB%B9%88%ED%8F%B4,%20%EB%B8%8C%EB%9E%9C%EB%93%9C%20%EC%95%B0%EB%B0%B0%EC%84%9C%EB%8D%94%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%20%EC%9D%B4%EC%A4%80%ED%98%81,%20%EC%B0%A8%EC%A3%BC%EC%98%81%20%EC%84%A0%EC%A0%95.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide4 {background-image: url(https://news.samsungcnt.com/upload/2.0/wp-content/uploads/sites/2/2024/06/%EC%82%AC%EC%A7%84-2.-%EB%B9%88%ED%8F%B4%EB%A0%88%EC%9D%B4%EB%94%94%EC%8A%A4-%EB%A6%AC%EB%84%A8-%ED%98%BC%EB%B0%A9-%EC%95%84%EC%9B%83%ED%8F%AC%EC%BC%93-%EC%87%BC%ED%8A%B8-%EC%A0%90%ED%94%84%EC%8A%88%ED%8A%B8.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide5 {background-image: url(https://news.samsungcnt.com/upload/2.0/wp-content/uploads/sites/2/2024/06/%EC%82%AC%EC%A7%84-1.-%EB%B9%88%ED%8F%B4%EB%A0%88%EC%9D%B4%EB%94%94%EC%8A%A4-%EB%A6%AC%EB%84%A8-%EC%B2%B4%ED%81%AC-%EB%B2%A8%ED%8B%B0%EB%93%9C-%EB%B3%BC%EB%A5%A8-%EC%9B%90%ED%94%BC%EC%8A%A4.jpg);}
+
+#wrap main #brand_wrap {
+    padding: 50px 0;
+}
+#wrap main #brand_wrap > h1 {
+    font-size: 1.4rem; font-weight: 700;
+    text-align: center; margin: 0 0 30px;
+}
+#wrap main #brand_wrap .visual_inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+#wrap main #brand_wrap .visual_inner > * {width: 50%;}
+#wrap main #brand_wrap .visual_inner .visual_media {
+    background-image: url(https://preview.redd.it/nike-vintage-poster-v0-ni74z21ujafa1.jpg?width=640&crop=smart&auto=webp&s=c693d72b00be9463c87a8563299425f4f3b8e643);
+    background-size: cover; background-position: bottom; height: 300px;
+}
+#wrap main #brand_wrap .visual_inner .visual_media a {
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    display: flex; flex-flow: column nowrap; justify-content: center; text-align: center;
+}
+#wrap main #brand_wrap .visual_inner .visual_media a * {color: #fff; line-height: 1.5;}
+#wrap main #brand_wrap .visual_inner .visual_media a p {}
+#wrap main #brand_wrap .visual_inner .visual_media a h1 {margin:10px 0; font-size:1.2rem; font-weight:700;}
+#wrap main #brand_wrap .visual_inner .visual_slider {
+    display: flex;
+    align-items: center; position: relative;
+}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand {width: 95%;}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-wrapper {}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-slide {}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-slide .photo_like {position: relative;}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-slide .photo_like a {}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-slide .photo_like a img {width: 100%;}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-slide .photo_like .like {
+    display: block; width: 16px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-slide > a {}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-slide > a p {margin: 5px 0 0;}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-slide > a .brand {color: #888;}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-slide > a h1 {margin: 5px 0 0;}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .swiper-slide > a .price {font-weight: 700; color: #333;}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .slide_brand1 {}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .slide_brand2 {}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .slide_brand3 {}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .slide_brand4 {}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .slide_brand5 {}
+#wrap main #brand_wrap .visual_inner .visual_slider .ssf_brand .slide_brand6 {}
+#wrap main #brand_wrap .visual_inner .visual_slider .prev1,
+#wrap main #brand_wrap .visual_inner .visual_slider .next1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(0.6);
+    z-index: 10;
+    cursor: pointer;
+}
+#wrap main #brand_wrap .visual_inner .visual_slider .prev1 {left: -10px;}
+#wrap main #brand_wrap .visual_inner .visual_slider .next1 {right: -10px;}
+#wrap main #brand_wrap .visual_inner .visual_slider .prev1 svg,
+#wrap main #brand_wrap .visual_inner .visual_slider .next1 svg {color: #222;}
